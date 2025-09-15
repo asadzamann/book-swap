@@ -1,0 +1,158 @@
+.lexend {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #4834d4;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+
+}
+
+.center-width {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-start,
+.nav-end {
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav-start a:first-child {
+    border-right: #f8f8f0 solid 1px;
+    padding-right: 15px;
+}
+
+.nav-start a,
+.nav-end a {
+    transition: background-color 0.4s, color 0.4s;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.nav-start a:hover,
+.nav-end a:hover {
+
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.hero-section {
+    background-color: #7ed6df;
+    position: relative;
+    background: #7ed6df;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+
+
+}
+
+
+.bg-png {
+    height: 500px;
+}
+
+.content {
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+    position: absolute;
+    right: 150px;
+    bottom: 150px;
+}
+
+.content p {
+    color: black;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.books {
+    width: 350px;
+    background-color: #c7ecee;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.books img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.book-buttons button {
+    width: 45%;
+    height: 40px;
+    background-color: #146cda;
+    color: #f8f8f0;
+    border: none;
+}
+
+.book-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.books-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.explore {
+    background-color: #dff9fb;
+}
+
+footer {
+    background-color: #7ed6df;
+}
+
+.footer-container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.footer-bottom {
+
+    text-align: center;
+}
+
+.footer-links li{
+    margin: 15px;
+}
